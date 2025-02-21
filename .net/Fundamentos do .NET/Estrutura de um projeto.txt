@@ -1,0 +1,95 @@
+--------------------------- Entendendo a Estrutura de um Projeto --------------------------------
+.csproj: Contém informações referente a um projeto (build, debug, versão)
+
+.sln = Solution: Contém informações que carregam um agrupamento de projetos.
+---------------------------------------------------------------------------------------------------------------------
+Tipos de Dados
+
+string = cadeia de caracteres - quaisquer caracteres (Nome = texto = string);
+
+char = unicode;
+object = objeto;
+
+boot = buleano - verdadeiro ou falso - sim ou não;
+
+ ~ decimal = valores decimais com dígitos até 28-29 digitos (normalmente utilizado para dinheiro);
+ ~ double = 64 bit - decimal mais preciso que float, bem grandinho tbm (coordenadas);
+ ~ float = 32 bits - decimal grandinho, tanto positivo quanto negativo;
+
+ -  int = número inteiro (Idade = Número inteiro, sem casas decimais = int);
+uint = positivos - 0 a 4,294,967,295 (dobro dos números positivos do int);
+short = -32,768 à 32,767;
+ulong = positivos - 0 a beeem longo;
+byte = 0 a 255;
+ -  long = 64 bits - número beeeeeeeeem grande, tipo 9 trilhões. 
+---------------------------------------------------------------------------------------------------------------------
+Sintaxe
+Conjunto de regras da linguagem (C#) para que o código funcione;
+---------------------------------------------------------------------------------------------------------------------
+Classe 
+Representa a construção de um objeto, tipo um molde, uma planta de algo.
+Um conceito representado do mundo real.
+---------------------------------------------------------------------------------------------------------------------
+Operador de atribuição
+O operdaor de atribuição = atribuio valor do operando do lado direito a uma variável ou um elemento fornecido pelo operando do lado esquerdo.
+O tipo do operandos do lado direito deve ser do mesmo tipo ou implicitamente conversível para o operando do lado esquerdo.
+---------------------------------------------------------------------------------------------------------------------
+Operadores Condicionais (if, else, switch, etc)
+Possibilita mudar o fluxo de execução do código, indicando um caminho a ser percorrido.
+---------------------------------------------------------------------------------------------------------------------
+Operadores Lógicos
+Operador Or (Pipe, ||): Ou.
+Operador AND (&&): E.
+Operador NOT (!): Negativo.
+---------------------------------------------------------------------------------------------------------------------
+Operadores Aritméticos e a Clase Math
++ = adição = a + b
+- = subtração = a - b
+* = Multiplicação = a * b
+/ = divisão (inteiro, se precisar do resto, colocar o double) = a / b
+% = Modulus = Retorna o resto da divisão = a % b
+++ = Incrementa = a++
+-- = Decrementa = b--
+---------------------------------------------------------------------------------------------------------------------
+Estruturas de Repetição (ou laço de repetição)
+FOR, WHILE, DO WHILE
+---------------------------------------------------------------------------------------------------------------------
+Arrays e Listas (use listas)
+O array (ou matriz ou vetor) é uma estrutura de dados que armazena valores do mesmo tipo, 
+> com um tamanho fixo. <
+
+Ex: 1. int[] array = new int [4];
+      2. int[] array = new int [] = {42, 75, 74, 61};
+      3. string[] nomes = {"Jan", "Fev"};
+
+Índice: É a posição de um determinado valor de um array, >sempre começando com zero<.
+Exemplo:     int[] array = new int [] = {42, 75, 74, 61}; -->  42 = 0;  75 = 1;  74 = 2;  61 = 3.
+1. int elemento = array[0];
+2. array[0] = 42;
+
+Lista
+Funciona do mesmo modo que o array, porém sua complexidade é menor 
+> e não possui um tamanho fixo, se redimensiona automaticamente conforme sua necessidade.<
+---------------------------------------------------------------------------------------------------------------------
+
+
+Convenções
+Maneira de Padronizar a codificação. Sem ela o código ainda funcionará, porém estará confuso e difícil de ler.
+Cada linguagem tem uma convenção diferente, importante buscar as convenções da linguagem a qual estiver trabalhando.
+
+Convenções:
+
+Cases
+Padrão de escrita
+
+   camelCase - utilizado no c#
+   PascalCase - utilizado no c#
+   snake_case
+   spinal-case
+
+- Evitar abreviações, mesmo que as variáveis sejam enormes;
+- De preferência, manter o nome do arquivo da classe de acordo com o nome da classe;
+- Sem caractere especial na variável, classe ou propriedade, só _ (underline), sem hífen;
+---------------------------------------------------------------------------------------------------------------------
+
+

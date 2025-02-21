@@ -1,0 +1,15 @@
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\bin\Debug\net8.0\PropriedadesMetodosConstrutores.exe
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\bin\Debug\net8.0\PropriedadesMetodosConstrutores.deps.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\bin\Debug\net8.0\PropriedadesMetodosConstrutores.runtimeconfig.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\bin\Debug\net8.0\PropriedadesMetodosConstrutores.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\bin\Debug\net8.0\PropriedadesMetodosConstrutores.pdb
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.AssemblyInfoInputs.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.AssemblyInfo.cs
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.csproj.CoreCompileInputs.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.sourcelink.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\refint\PropriedadesMetodosConstrutores.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.pdb
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\PropriedadesMetodosConstrutores.genruntimeconfig.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Manipulando Dados e Objetos com .NET\PropriedadesMetodosConstrutores\obj\Debug\net8.0\ref\PropriedadesMetodosConstrutores.dll

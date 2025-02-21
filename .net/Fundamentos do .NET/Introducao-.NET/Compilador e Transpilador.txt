@@ -1,0 +1,58 @@
+O que é um compilador
+
+Linguagem de alto nível: a linguagem que entendemos e escrevemos nosso código fonte;
+Linguagem de baixo nível: a linguagem que a máquina entende (binário - 1 e 0). Possui pouca abstração, sendo difícil de entender.
+
+O compilador é o responsável por traduzir a linguagem de alto nível para a linguagem de baixo nível para a máquina.
+
+Exemplo:
+Hello World em C# (alto nível):
+Console.WriteLine("Hello, World!");
+
+Hello World em Assembly (baixo nível):
+global _main
+extern _printf
+
+section .text
+_main:
+      push     message
+      call       _printf
+      add      esp,  4
+      ret
+message:
+      db 'Hello, World!', 10, 0
+
+Processo
+- Pega a linguagem de alto nível;
+- Realiza análise Lexica;
+- Realiza análise de sintaxe (sintatica);
+- Gera um código intermediário (linguagem de nível meio termo);
+- Realizar melhorias no código;
+- Gerar o código final (código máquina/binário).
+Durante todo o processo, o compilador verifica se está tudo escrito corretamente, faz sentido, se tem algum erro, etc.
+
+
+Compilador do .NET
+Compile Time:
+- Pega o código C# - ex: MyProgram.cs;
+- Chama o compilador do c#;
+- Gera o código intermediário, ou IL Code (Código de Linguagem Intermediária. Um código independente da máquina, "genérico") - ex: MyProgram.exe e MyProgram.dll
+
+Runtime:
+- Passa pelo JIT Compiler (Just In Time), que converte o código intermediário para o código nativo com a arquitetura específica da máquina;
+- Entrega o código nativo (Native code) para a máquina- ex: 21 0a 00 00 e 0c 10 00 06.
+
+
+O que é Transpilador
+É a conversão de uma linguagem ou implementação para outra. A sua saída permanece em linguagem de alto nível.
+Exemplo: Typescript para Javascript. Existem códigos no Typescript que o Javascript não entende, portanto o transpilador irá converter de forma que o javascript entenda.
+
+Simplificando: Converte de uma linguagem de alto nível para outra linguagem de alto nível.
+
+Nem toda linguagem é compilada
+Linguagem Compilada: São linguagens cujo código fonte é traduzido para o código da máquina (como C# e Java).
+
+Linguagem Interpretada: São linguagens que fazem a leitura e interpretação  diretamente do código fonte, que não gera um binário/código da máquina (como Javascript e PHP). 
+
+Vídeo explicativo do passo a passo do compilador:
+https://www.youtube.com/watch?v=afUiVvDUIRA

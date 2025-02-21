@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+}
+
+.nome {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+    padding: 30px;
+    color: rgba(49, 2, 2, 0.76);
+}
+
+.azul {
+    background-color: rgb(13, 34, 131);
+    width: 15em;
+    height: 30em;
+    left: 23%;
+    position: absolute;
+}
+
+.branco {
+    background-color: beige;
+    width: 15em;
+    height: 30em;
+    left: 41.3%;
+    position: absolute;
+}
+
+.verm {
+    background-color: rgb(211, 38, 38);
+    width: 15em;
+    height: 30em;
+    left: 59.6%;
+    position: absolute;
+}

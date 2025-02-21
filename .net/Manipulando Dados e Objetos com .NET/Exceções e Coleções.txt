@@ -1,0 +1,7 @@
+Exceções
+Os recursos de manipulação de execução da limguagem C# ajudam você a lidar com quaisquer situações excepcionais ou inesperadas que ocorram quando um programa for executado.
+
+Coleções
+Queue = Filas: Obedecem e implementam regras específicas. Funciona igual uma fila mesmo (FIFO = First In First Out).
+Stack = Pilha: LIFO (Last In First Out), meio que o contrário de uma fila.
+Dictionary: o dictionary é uma coleção de chave-valor para armazenar valores únicos sem uma ordem específica.

@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<meta charset - "UTF-8">
+		<title>Inscrição</title>
+		<style type = "text/css">
+			h3 {
+				color:#3e0209;
+				font: arial;
+				font-size: 1.2em;
+			}
+			
+			h1 {
+				font-size:2em;
+				color:#3e0209;
+				font: arial;
+			}
+			
+			body{
+				background-color: #efdddf;
+				position: solid;
+			}
+			
+			legend {
+				border-radius: 8px;
+				padding: 4px;
+				background-color: #e2808c;
+				font-size: 1.07em;
+			}
+			
+			fieldset {
+				background-color: #eda8b0;
+				margin-left: 200px;
+				margin-right: 200px;
+				border: 1px solid #d55060;
+				border-radius: 8px;
+			}
+			
+			p {
+				font: arial;
+				color: #31010b;
+				font-size: 1.0em;
+			}
+			
+			input, select, textarea {
+				background-color: #ebd3d8;
+				border: 0.3px solid #4b0514;
+			}
+			
+			.vai {
+				border-radius: 5px;
+				background-color:#f7bec9;
+				margin-left: 230px;
+				padding: 7px;
+				font-size: 0.75em;
+			}
+			
+			.foi {
+				border-radius: 5px;
+				background-color:#f7bec9;
+				margin-left: 30px;
+				padding: 7px;
+				font-size: 0.75em;
+			}
+		</style> 
+	</head>
+	<body>
+		<form method="post" action="">
+			<center><h1> Inscrição para Curso de Férias </h1></center>
+			<fieldset>
+			<legend>Dados pessoais</legend>
+			<p> <label for = "nome">Nome:</label> <input type="text" name="nome"></p>
+			<p> <label for = "email">E-mail:</label> <input type="text" name="email"></p>
+			<p> <label for = "senha">Senha:</label> <input type="password" name="senha"></p>
+			</fieldset>
+			<br/>
+			<fieldset>
+			<legend>Informações do curso</legend>
+			<h3>Escolha seu curso:</h3>
+			<select name ="curso">
+				<option></option>
+				<option value ="001">Especialização em chocolate,cultura e política da comida Graduação </option>
+				<option value ="002">Graduação em design e performance de marionete </option>
+				<option value ="003">Graduação em estudos aplicados em gerenciamente de golfe </option>
+				<option value ="004">Graduação wm Estudos Viking </option>
+				<option value ="005">Graduação wm Gerenciamento e Tecnologia de padarias </option>
+				<option value ="006">Graduação em Produção midiática sobre vida selvagem </option>
+				<option value ="007">Graduação em Psicologia Equestre </option>
+				<option value ="008">Graduação em Trabalho com vidro e cerãmica </option>
+				<option value ="009">Graduação tecnológica em ciência e tecnologia do surf </option>
+				<option value ="010">Mestrado em Beatles, música popular e sociedade </option>
+			</select>
+			
+			<h3>Escolha o período que pretende cursar </h3>
+			<p> <input type="radio" name="periodo" value="m"> Manhã </p>
+			<p> <input type="radio" name="periodo" value="t"> Tarde </p>
+			<p> <input type="radio" name="periodo" value="n"> Noite </p>
+			
+			<h3>Escreva um pequeno texto sobre o interesse neste texto</h3>
+			<textarea name="interesse"></textarea>
+			
+			<h3> Escolha as matérias obrigatórias que pretende cursar no primeiro semestre</h3>
+			<p> <input type="checkbox" name="obrigatorias" value="DI">Direito</p>
+			<p> <input type="checkbox" name="obrigatorias" value="FA">Filosofia Aplicada</p>
+			<p> <input type="checkbox" name="obrigatorias" value="II">Inglês Instrumental</p>
+			<p> <input type="checkbox" name="obrigatorias" value="ME">Metodologia Científica</p>
+			<p> <input type="checkbox" name="obrigatorias" value="PI">Português Instrumental</p>
+			<p> <input type="checkbox" name="obrigatorias" value="PA">Psicologia Aplicada</p>
+			</fieldset>
+			<br/>
+			<br/>
+			<input type = "submit" value="Enviar" class = "vai">
+			<input type = "reset" value="Limpar" class = "foi">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+Propriedades
+Uma propriedade é um membro que oferece um mecanismo flexível para ler, gravar ou calcular o valor de um campo particular.
+Representa e protege o atributo de uma classe, por exemplo.
+
+Métodos
+Um método é um bloco de código que contém uma série de instruções, um pedaço de código que pode ser reaproveitado em diversos lugares.
+Uma ação que determinada classe vai fazer.
+
+Construtores
+Os contrutores permitem que o programador defina valores padrão, limite a instanciação e grave códigos flexíveis e fáceis de ler.

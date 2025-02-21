@@ -1,0 +1,198 @@
+/* =========== Google Fonts ============ */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* =============== Globals ============== */
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #2f3061;
+  --white: #fffbf5;
+  --primary-color: #66ccaa;
+  --yellow-maneiro: #ffe66d;
+  --light-red: #ff6b6b;
+  --black1: #222;
+  --black2: #999;
+  --body-color: #ffffff;
+  --header-color: #333333;
+  --header-button: #666666;
+  --color-weekdays: #999999;
+  --color-day: #f3f3f3;
+  --hover: #ddd;
+  --current-day: #ffecb3;
+  --modal-event: #ffffff;
+  --box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--body-color);
+}
+
+button {
+  width: 75px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.btn1{
+  left: - 831px;
+  position: relative;
+}
+
+#header {
+  padding: 10px;
+  color: var(--header-color);
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header button {
+  background-color: var(--header-button);
+}
+
+.container {
+  position: static;
+  width: 100%;
+}
+.navigation.active {
+  width: 80px;
+}
+.main.active {
+  width: calc(100% - 80px);
+  left: 80px;
+}
+#weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  color: var(--color-weekdays);
+  position: fixed;
+}
+
+#weekdays div {
+  border-radius: 100px;
+  padding: 10px;
+  text-align: center;
+  margin: 0px 1rem;
+  width: 9rem;  
+}
+
+#calendar {
+  width: 100%;
+  max-width: 1237px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  position: absolute;
+  top: 19%;
+}
+
+.day {
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--color-day);
+  margin: 5px;
+  box-shadow: 0px 0px 3px var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  border: 1px solid var(--gray);
+}
+
+.day:hover {
+  background-color: var(--hover);
+}
+
+#currentDay {
+  background-color: var(--current-day);
+}
+
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: var(--primary-color);
+  color: #fbfbfb;
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.padding {
+  cursor: default !important;
+  background-color: var(--body-color) !important;
+  box-shadow: none !important;
+}
+
+#newEventModal,
+#deleteEventModal {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  color: var(--white);
+  background-color: var(--black1) !important;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 8rem;
+  left: calc(50% - 18rem);
+  position: absolute;
+  font-family: sans-serif;
+}
+
+#eventTitleInput {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+  margin-top: 15px;
+}
+
+#eventTitleInput.error {
+  border: 2px solid red;
+}
+
+#cancelButton,
+#deleteButton {
+  background-color: var(--light-red);
+}
+
+#saveButton,
+#closeButton {
+  background-color: var(--header-button);
+}
+
+#eventText {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#modalBackDrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}

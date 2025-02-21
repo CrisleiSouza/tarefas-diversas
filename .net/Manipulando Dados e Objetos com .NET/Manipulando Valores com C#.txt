@@ -1,0 +1,5 @@
+Concatenação de string
+Podemos formatar valores em diversas representações. Essa formatação de valores é conhecida por concatenação ou interpolação.
+Concatenação = "pipipi" + variavel + "popopo";
+Interpolação = $"Pipipi {variavel} popopo";
+

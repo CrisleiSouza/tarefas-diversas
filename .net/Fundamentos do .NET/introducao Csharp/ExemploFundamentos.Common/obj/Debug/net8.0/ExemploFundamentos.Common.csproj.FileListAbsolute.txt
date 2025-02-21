@@ -1,0 +1,12 @@
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.deps.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.pdb
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.AssemblyInfo.cs
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.sourcelink.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\refint\ExemploFundamentos.Common.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.pdb
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\introducao Csharp\ExemploFundamentos.Common\obj\Debug\net8.0\ref\ExemploFundamentos.Common.dll

@@ -1,0 +1,16 @@
+.col-md-2 {
+    background: url(img/caverinha.png);
+    height: 100%;
+    width: 12%;
+}
+
+.titulo {
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.9em;
+}
+
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+}

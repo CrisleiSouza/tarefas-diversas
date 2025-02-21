@@ -1,0 +1,141 @@
+.add-box {
+    position: absolute;
+    right: 0%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 50rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Adicionando uma transição suave para opacidade e transform */
+    border-radius: 10px;
+    box-shadow: 3px 9px 24px 0px rgba(0, 0, 0, 0.35);
+    display: none; /* Inicialmente oculto */
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Adicionando a animação para exibir o elemento */
+.add-box.show {
+    display: flex;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Adicionando escala para um efeito de zoom */
+}
+
+.add-box h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-box form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.add-box label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.add-box input,
+.add-box select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    line-break: column;
+}
+
+.add-box input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-box input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#closeicon {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.cadastroempresa {
+    position: relative;
+    display: grid;
+    height: 12rem;
+    width: 12rem;
+    padding: 20px;
+    background: var(--white);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    left: 75rem;
+    bottom: 16rem;
+}
+
+.btn {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2f3061;
+   }
+   
+   .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .btn::after {
+    background-color: #2f3061;
+   }
+   
+   .btn:hover::after {
+    transform: scaleX(1.3) scaleY(1.6);
+    opacity: 0;
+   }
+  
+   #table_client td {
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+}

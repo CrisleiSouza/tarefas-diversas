@@ -1,0 +1,15 @@
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\bin\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.exe
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\bin\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.deps.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\bin\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.runtimeconfig.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\bin\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\bin\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.pdb
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.AssemblyInfoInputs.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.AssemblyInfo.cs
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.csproj.CoreCompileInputs.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.sourcelink.json
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\refint\Introducao-IDEs e Config de ambiente .NET.dll
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.pdb
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\Introducao-IDEs e Config de ambiente .NET.genruntimeconfig.cache
+C:\Users\55119\OneDrive\Área de Trabalho\cursinho\Fundamentos do .NET\Introducao-IDEs e Config de ambiente .NET\obj\Debug\net8.0\ref\Introducao-IDEs e Config de ambiente .NET.dll

@@ -1,0 +1,46 @@
+O que é IDE
+
+Uma IDE (Integrated Development Environment), ou ambiente de desenvolvimento integrado, é um programa que facilita e integra diversas facilidades para a escrita e depuração do código. 
+Exemplo 1: um programa que permite que eu posso trabalhar com ou visualizar dois ou mais arquivos simultaneamente. 
+Exemplo 2: Extensões de auto-complete de códigos (ou sugestões de finalização de código), diferentes cores para diferentes ocasiões, etc.
+
+IDEs do .NET
+Visual Studio
+É a principal IDE em tudo que é canto, inclusive no .NET.
+-Vantagens:
+- Versão gratuita (Community);
+- Debug rico em detalhes (bem joia, oferece as informações tudo);
+- Disponível para Windows e Mac.
+-Desvantagens:
+- Não é disponível para Linux;
+- Performance, exige muitos recursos da máquina (fica cansada tadinha)
+
+Visual Studio Code
+É um editor de texto (não uma IDE, porém, é possível usar extensões para que aja como tal) usado para facilitar o desenvolvimento de diversas linguagens. (Meu bb)
+
+-Vantagens:
+- Totalmente gratuito :),
+- Possibilidade de instalar extensões :);
+- Disponível para Windows, Mac e Linux;
+- Muito leve em performance, você só instala o que quiser e precisar :).
+
+-Desvantagens:
+- É necessário uma  configuração inicial (de boa po);
+- Não muito intuitivo para algumas funcionalidades (podia ser pior).
+
+Rider
+É uma IDE. (Desconheço, mas parece ser incrível)
+
+-Vantagens:
+- Rico em funcionalidades;
+- Forte integração com o .NET;
+- Facilidade em trabalhar com o Unity;
+- Recomendações de refatoração de código (te corrigi e sugere uma melhoria, bem bom);
+- Atalhos e comandos que aumentam a produtividade.
+
+-Desvantagens:
+- Pago (tinha que ser);
+- Performance, exige muito da máquina tadinha.
+
+Era bom demais pra ser verdade.
+UNIVERSITÁRIO PODE PEDIR DE GRAÇA UAU.

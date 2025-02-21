@@ -1,0 +1,107 @@
+
+.Texto {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.filhotes {
+    background-color: rgba(226, 81, 117, 0.384);
+    color: rgb(184, 70, 85);
+    padding: 17px;
+    height: 120px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    transition: 1.3s;
+    border: none;
+}
+
+.filhotes:hover{
+    background-color: rgba(206, 37, 79, 0.486);
+    color: rgb(168, 46, 63);
+    letter-spacing: 0.05em;
+    transition: 1.3s;
+}
+
+.filhotes:active {
+    background-color: rgba(190, 15, 59, 0.555);
+    color: rgba(194, 0, 23, 0.767);
+    transition: 0.1s;
+}
+
+.jovens {
+    background-color: rgba(226, 81, 117, 0.384);
+    color: rgb(184, 70, 85);
+    padding: 17px;
+    height: 120px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    transition: 1.3s;
+    border: none;
+}
+
+.jovens:hover {
+    background-color: rgba(206, 37, 79, 0.486);
+    color: rgb(168, 46, 63);
+    letter-spacing: 0.05em;
+    transition: 1.3s;
+}
+
+.jovens:active {
+    background-color: rgba(190, 15, 59, 0.555);
+    color: rgba(194, 0, 23, 0.767);
+    transition: 0.1s;
+}
+
+.adultos {
+    background-color: rgba(226, 81, 117, 0.384);
+    color: rgb(184, 70, 85);
+    padding: 17px;
+    height: 120px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    transition: 1.3s;
+    border: none;
+}
+
+.adultos:hover {
+    background-color: rgba(206, 37, 79, 0.486);
+    color: rgb(168, 46, 63);
+    letter-spacing: 0.05em;
+    transition: 1.3s;
+}
+
+.adultos:active {
+    background-color: rgba(190, 15, 59, 0.555);
+    color: rgba(194, 0, 23, 0.767);
+    transition: 0.1s;
+}
+
+.idosos {
+    background-color: rgba(226, 81, 117, 0.384);
+    color: rgb(184, 70, 85);
+    padding: 17px;
+    height: 120px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    transition: 1.3s;
+    border: none;
+}
+
+.idosos:hover {
+    background-color: rgba(206, 37, 79, 0.486);
+    color: rgb(168, 46, 63);
+    letter-spacing: 0.05em;
+    transition: 1.3s;
+}
+
+.idosos:active {
+    background-color: rgba(190, 15, 59, 0.555);
+    color: rgba(192, 0, 22, 0.767);
+    transition: 0.1s;
+}
